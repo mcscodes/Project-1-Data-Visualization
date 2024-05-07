@@ -100,3 +100,86 @@ Project Description/Outline
       
       Insights: This analysis can determine if higher staffing levels lead to better quality of care in nursing homes.
 
+Breakdown of Task:
+
+  Data Acquisition and Cleaning:
+
+    Task: Find and retrieve the dataset from a curated source (e.g., Kaggle, data.world).
+
+    Section Leader: Ellis McWhirter
+
+    Sub-Tasks:
+      
+      Search for suitable datasets related to the chosen field (finance, healthcare, or custom).
+
+      Evaluate datasets based on relevance, quality, and size.
+      
+      Download the selected dataset and ensure it complies with licensing and usage terms.
+
+      Clean the dataset by handling missing values, outliers, and formatting inconsistencies.
+
+  Exploratory Data Analysis (EDA):
+
+    Task: Perform initial exploratory data analysis to understand the dataset's characteristics and relationships.
+
+    Section Leader: John Hayes
+
+    Sub-Tasks:
+
+      Use Jupyter Notebook to load the dataset and explore its structure and contents.
+
+      Generate summary statistics, distributions, and visualizations to gain insights.
+
+      Identify potential patterns, trends, and outliers within the data.
+
+      Document the EDA process and findings in the notebook.
+
+  Data Analysis and Visualization:
+
+    Task: Conduct in-depth data analysis using statistical techniques and create visualizations to support findings.
+
+    Section Leader: Allison Chase
+
+    Sub-Tasks:
+
+      Perform statistical analysis such as aggregation, correlation, and time series analysis.
+
+      Create visualizations (e.g., plots, charts) to illustrate key insights and trends.
+
+      Ensure visualizations are properly labeled and formatted for clarity.
+
+      Interpret the results of the analysis and relate them to the project's objectives.
+
+  Presentation Preparation:
+
+    Task: Develop the group presentation and ensure all members are ready to deliver their parts.
+
+    Section Leader: James Brannan
+
+    Sub-Tasks:
+
+      Create a slide deck outlining the project's scope, methodology, findings, and conclusions.
+
+      Coordinate with other group members to integrate their analysis and visualizations into the presentation.
+
+      Rehearse the presentation multiple times to ensure smooth delivery and adherence to time limits.
+
+      Prepare speaking notes for each group member to guide their presentation segments.
+
+  GitHub Repository Management and Documentation:
+
+    Task: Manage the GitHub repository, organize files, and compile final documentation.
+    
+    Section Leader: Matthew Sanders
+
+    Sub-Tasks:
+
+      Set up the GitHub repository and ensure all group members have access.
+      
+      Create directories and structure within the repository for code, data, and documentation.
+
+      Manage version control by reviewing and merging code contributions from group members.
+
+      Compile a comprehensive README file summarizing the project, data sources, methodology, and findings.
+
+      Ensure the final repository meets professional quality standards and is ready for submission.
