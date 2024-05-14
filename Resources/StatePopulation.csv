@@ -1,0 +1,52 @@
+﻿State,STATE NAME,Number of Facilities,State Population,"Facilities per 10,000 people"
+CA,California,1165,"38,965,193",33
+TX,Texas,1185,"30,503,301",26
+FL,Florida,701,"22,610,726",32
+NY,New York,603,"19,571,216",32
+PA,Pennsylvania,671,"12,961,683",19
+IL,Illinois,682,"12,549,689",18
+OH,Ohio,930,"11,785,935",13
+GA,Georgia,357,"11,029,227",31
+NC,North Carolina,419,"10,835,491",26
+MI,Michigan,425,"10,037,261",24
+NJ,New Jersey,346,"9,290,841",27
+VA,Virginia,289,"8,715,698",30
+WA,Washington,195,"7,812,880",40
+AZ,Arizona,142,"7,431,344",52
+TN,Tennessee,306,"7,126,489",23
+MA,Massachusetts,345,"7,001,399",20
+IN,Indiana,512,"6,862,199",13
+MO,Missouri,501,"6,196,156",12
+MD,Maryland,222,"6,180,253",28
+WI,Wisconsin,326,"5,910,955",18
+CO,Colorado,211,"5,877,610",28
+MN,Minnesota,346,"5,737,915",17
+SC,South Carolina,189,"5,373,555",28
+AL,Alabama,225,"5,108,468",23
+LA,Louisiana,268,"4,573,749",17
+KY,Kentucky,270,"4,526,154",17
+OR,Oregon,129,"4,233,358",33
+OK,Oklahoma,288,"4,053,824",14
+CT,Connecticut,198,"3,617,176",18
+UT,Utah,98,"3,417,734",35
+IA,Iowa,405,"3,207,004",8
+NV,Nevada,67,"3,194,176",48
+AR,Arkansas,220,"3,067,732",14
+KS,Kansas,307,"2,940,546",10
+MS,Mississippi,202,"2,939,690",15
+NM,New Mexico,68,"2,114,371",31
+NE,Nebraska,184,"1,978,379",11
+ID,Idaho,80,"1,964,726",25
+WV,West Virginia,123,"1,770,071",14
+HI,Hawaii,42,"1,435,138",34
+NH,New Hampshire,74,"1,402,054",19
+ME,Maine,82,"1,395,722",17
+MT,Montana,60,"1,132,812",19
+RI,Rhode Island,74,"1,095,962",15
+DE,Delaware,44,"1,031,890",23
+SD,South Dakota,96,"919,318",10
+ND,North Dakota,75,"783,926",10
+AK,Alaska,20,"733,406",37
+DC,District of Columbia,17,"678,972",40
+VT,Vermont,34,"647,464",19
+WY,Wyoming,35,"584,057",17
