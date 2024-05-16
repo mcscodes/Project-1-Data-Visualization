@@ -1,185 +1,51 @@
-# Project-1-Data-Visualization
-For Project Team Work
+Summary
 
-Project Title
-- Skilled Nursing Facility Provider Information
+Analyzing a large data set from Data.CMS.govs, Provider Information covering “general information on currently active nursing homes, including number of certified beds, quality measure scores, staffing, and other information in the Five-Star Rating System” in the United States, Group 1 aimed to answer these questions (https://data.cms.gov/provider-data/dataset/4pq5-n9py):
+Where do we want to place a new nursing facility?
+What makes a highly rated nursing home facility and how does the Five-Star Rating System reflect that?
+Staffing hours per resident per day
+What are red flag indicators for a facility?
+Abuse
 
-Team Members
-- James Brannan
-- Allison Chase
-- John Hayes
-- Ellis McWriter
-- Matthew Sanders
 
-Datasets to be Used
-https://data.cms.gov/provider-data/dataset/4pq5-n9py ("Skilled Nursing Facility Provider Information - General information on currently active nursing homes, including number of certified beds, quality measure scores, staffing and other information used in the Five-Star Rating System. Data are presented as one row per nursing home.”)
+What are the average 5 star nursing home ratings per different states?
+How does the staffing levels of nursing homes relate to their Five-Star Rating System scores?
+Ownership correlations (For Profit/Non Profit)
+Comparison of average three year score by ownership type
 
-Project Description/Outline
 
-  Research Questions to Answer - Guidance from the Xpert:
-  
-    Is there a correlation between the number of certified beds in a nursing home and its quality measure scores?
-    
-    How does the staffing levels of nursing homes relate to their Five-Star Rating System scores?
-    
-    Are there any trends in quality measure scores based on the location or region of the nursing homes?
-    
-    What is the distribution of certified beds across nursing homes in different states or areas?
-    
-    Is there a relationship between the size of a nursing home (number of certified beds) and the average staffing levels?
-    
-    Can we identify any outliers in the data that may indicate areas for further investigation or improvement?
-    
-    How do different quality measures correlate with each other within the dataset?
-    
-    Are there any patterns in the data that suggest certain factors have a significant impact on the overall rating of a nursing home?
-    
-    How does the average quality measure score vary for nursing homes with different ownership types?
-    
-    Is there a relationship between the staffing levels and the quality of care provided in nursing homes?
+Analysis Results
 
-  Data Visualization Tasks - Guidance from the Xpert:
-  
-    Correlation between Number of Certified Beds and Quality Measure Scores:
-    
-      Visualization: A scatter plot showing the relationship between the number of certified beds and quality measure scores for each nursing home.
-      
-      Insights: This analysis can help determine if there is a relationship between the size of the nursing home (number of beds) and the quality of care provided.
-      
-    Staffing Levels and Five-Star Rating System Scores:
-    
-      Visualization: Bar chart or line graph comparing staffing levels with Five-Star Rating System scores.
-      
-      Insights: This analysis can reveal how staffing levels impact the overall rating of nursing homes.
-      
-    Trends in Quality Measure Scores by Location or Region:
-    
-      Visualization: Heatmap or geographical map showing quality measure scores across different regions or states.
-      
-      Insights: This analysis can identify regions with higher or lower quality measure scores and potential areas for improvement.
-      
-    Distribution of Certified Beds Across Nursing Homes in Different States:
-    
-      Visualization: Box plot or histogram showing the distribution of certified beds in nursing homes by state.
-      
-      Insights: This analysis can provide insights into the variation in the size of nursing homes across different states.
-      
-    Relationship between Nursing Home Size and Average Staffing Levels:
-    
-      Visualization: Scatter plot or regression analysis showing the relationship between the number of certified beds and staffing levels.
-      
-      Insights: This analysis can help understand how the size of a nursing home influences its staffing levels.
-      
-    Identification of Outliers in the Data:
-    
-      Visualization: Box plot or scatter plot highlighting outliers in the data.
-      
-      Insights: Identifying outliers can indicate areas that require further investigation or improvement in terms of quality measures.
-      
-    Correlation between Different Quality Measures:
-    
-      Visualization: Correlation matrix or heatmap showing the relationships between different quality measures.
-      
-      Insights: Understanding how different quality measures correlate can provide a comprehensive view of the overall quality of care.
-      
-    Factors Impacting Overall Rating of Nursing Homes:
-    
-      Visualization: Decision tree analysis or feature importance plot to identify factors influencing the overall rating.
-      
-      Insights: This analysis can reveal which factors have a significant impact on the overall rating of nursing homes.
-      
-    Variation in Quality Measure Scores by Ownership Types:
-    
-      Visualization: Grouped bar chart or box plot comparing quality measure scores across different ownership types.
-      
-      Insights: Understanding how quality measure scores vary by ownership type can help in assessing performance differences.
-      
-    Relationship between Staffing Levels and Quality of Care:
-    
-      Visualization: Scatter plot or regression analysis showing the relationship between staffing levels and quality measure scores.
-      
-      Insights: This analysis can determine if higher staffing levels lead to better quality of care in nursing homes.
+In this project, our hypothetical clients engaged us to assist in launching a skilled nursing facility. After conducting some preliminary research, they discovered that the Centers for Medicare Services (CMS) employs a 5-Star Rating System to evaluate these facilities. This system, however, utilizes a complex array of differentially weighted metrics, making it challenging to alter a rating once assigned. Notably, it can take up to four years for negative metrics to be removed from the scoring cycle.
 
-Breakdown of Task:
+Identifying Optimal Markets for a New Facility
 
-  Data Acquisition and Cleaning:
+Our analysis of facilities by state indicated potential markets that are less saturated and could be promising for new locations. Initially, states like Alaska (AK) seemed appealing, whereas Iowa (IA) appeared more moderate. However, a per capita analysis revealed that Alaska is one of the worst options for placement, while Iowa emerges as one of the least dense markets. This suggests that Iowa, with fewer nursing homes relative to its population, offers a significant opportunity for a new facility.
 
-    Task: Find and retrieve the dataset from a curated source (e.g., Kaggle, data.world).
+Understanding the 5-Star System
 
-    Section Leader: Ellis McWhirter
+To better inform our clients, we examined the distribution of 5-Star nursing home ratings across various states. This analysis provided a reference point for the average scores to aim for. States like Iowa (IA) and North Dakota (ND) do not rank among the highest, suggesting that the competition may not be as intense in these regions.
 
-    Sub-Tasks:
-      
-      Search for suitable datasets related to the chosen field (finance, healthcare, or custom).
+Characteristics of High-Quality Nursing Facilities
 
-      Evaluate datasets based on relevance, quality, and size.
-      
-      Download the selected dataset and ensure it complies with licensing and usage terms.
+Our investigation into staffing patterns revealed a positive correlation between Nurse Aide staffing hours per resident and higher 5-Star ratings. Given that Nurse Aides handle most daily care activities, this correlation is logical. Conversely, Licensed Practical Nurse hours per resident showed no significant correlation with 5-Star ratings, indicating that increasing these hours may not impact the rating. Registered Nurse hours per resident also showed a positive correlation with 5-Star ratings, similar to Nurse Aide hours. These findings suggest that high-rated facilities typically ensure substantial Registered Nurse and Nurse Aide hours per resident.
 
-      Clean the dataset by handling missing values, outliers, and formatting inconsistencies.
+Negative Indicators in Nursing Facilities
 
-  Exploratory Data Analysis (EDA):
+While facilities receive numerous complaints, only those investigated and substantiated affect the overall score. Even 5-star facilities receive complaints, so the goal is to minimize them. The quality of staff plays a crucial role in keeping complaint levels low, as does the time spent with patients. We observed a correlation between ownership type and complaint volume, with for-profit facilities tending to receive more complaints than government-run ones. This may be due to better pay and job security in government positions. Potential investors should investigate why certain areas, such as Los Angeles and the Great Lakes region, have higher complaint volumes.
 
-    Task: Perform initial exploratory data analysis to understand the dataset's characteristics and relationships.
+Impact of Health Deficiency Scores
 
-    Section Leader: John Hayes
+The Health Deficiency Score measures the severity and likelihood of deficiencies in a facility, with higher scores indicating severe infractions. Facilities can receive an abuse icon on Nursing Home Compare (NHC) if they meet specific criteria related to harm or potential harm from abuse. Our analysis found that facilities with higher health deficiency scores tend to have lower 5-Star ratings. Notably, for-profit facilities often have higher health deficiency scores compared to government-run facilities, which typically score lower.
 
-    Sub-Tasks:
+Evaluating Non-Profit and For-Profit Facilities
 
-      Use Jupyter Notebook to load the dataset and explore its structure and contents.
+“For-Profit” nursing homes incur the majority of fines compared to government and non-profit homes. This is partly due to the market dominance of for-profit facilities. When examining fines per facility category, the differences become less pronounced, especially when outliers are excluded. Non-profit status does not necessarily guarantee better care, as the number of fines per facility type is relatively similar. There is a negative correlation between higher 5-Star ratings and the total amount of fines, with higher-rated facilities generally paying less in fines. However, even 5-star facilities can incur fines up to around $200,000.
 
-      Generate summary statistics, distributions, and visualizations to gain insights.
+Recommendations for New Facilities
 
-      Identify potential patterns, trends, and outliers within the data.
+Clients aiming to establish new nursing facilities should focus on areas with a high need for such services, invest adequately in Nurse Aides and Registered Nurses to ensure high hours per patient, hire quality staff to minimize complaints, ensure rigorous regulation and staff training to prevent abuse, and strive to maintain a Health Deficiency Score of zero. These strategies should help make new facilities highly competitive. Additionally, examining the management practices of government-run facilities could provide valuable insights, as they tend to perform well.
 
-      Document the EDA process and findings in the notebook.
+Next Steps
 
-  Data Analysis and Visualization:
-
-    Task: Conduct in-depth data analysis using statistical techniques and create visualizations to support findings.
-
-    Section Leader: Allison Chase
-
-    Sub-Tasks:
-
-      Perform statistical analysis such as aggregation, correlation, and time series analysis.
-
-      Create visualizations (e.g., plots, charts) to illustrate key insights and trends.
-
-      Ensure visualizations are properly labeled and formatted for clarity.
-
-      Interpret the results of the analysis and relate them to the project's objectives.
-
-  Presentation Preparation:
-
-    Task: Develop the group presentation and ensure all members are ready to deliver their parts.
-
-    Section Leader: James Brannan
-
-    Sub-Tasks:
-
-      Create a slide deck outlining the project's scope, methodology, findings, and conclusions.
-
-      Coordinate with other group members to integrate their analysis and visualizations into the presentation.
-
-      Rehearse the presentation multiple times to ensure smooth delivery and adherence to time limits.
-
-      Prepare speaking notes for each group member to guide their presentation segments.
-
-  GitHub Repository Management and Documentation:
-
-    Task: Manage the GitHub repository, organize files, and compile final documentation.
-    
-    Section Leader: Matthew Sanders
-
-    Sub-Tasks:
-
-      Set up the GitHub repository and ensure all group members have access.
-      
-      Create directories and structure within the repository for code, data, and documentation.
-
-      Manage version control by reviewing and merging code contributions from group members.
-
-      Compile a comprehensive README file summarizing the project, data sources, methodology, and findings.
-
-      Ensure the final repository meets professional quality standards and is ready for submission.
+Further research is warranted to understand why certain areas have higher complaint volumes. Factors such as management practices, population size, availability of skilled labor, and state regulations may influence facility performance and should be explored in greater detail.
