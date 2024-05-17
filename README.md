@@ -1,17 +1,14 @@
 Summary
 
 Analyzing a large data set from Data.CMS.govs, Provider Information covering “general information on currently active nursing homes, including number of certified beds, quality measure scores, staffing, and other information in the Five-Star Rating System” in the United States, Group 1 aimed to answer these questions (https://data.cms.gov/provider-data/dataset/4pq5-n9py):
-Where do we want to place a new nursing facility?
-What makes a highly rated nursing home facility and how does the Five-Star Rating System reflect that?
-Staffing hours per resident per day
-What are red flag indicators for a facility?
-Abuse
-
-
-What are the average 5 star nursing home ratings per different states?
-How does the staffing levels of nursing homes relate to their Five-Star Rating System scores?
-Ownership correlations (For Profit/Non Profit)
-Comparison of average three year score by ownership type
+- Where do we want to place a new nursing facility?
+- What makes a highly rated nursing home facility and how does the Five-Star Rating System reflect that?
+- Staffing hours per resident per day
+- What are red flag indicators for a facility?Abuse
+- What are the average 5 star nursing home ratings per different states?
+- How does the staffing levels of nursing homes relate to their Five-Star Rating System scores?
+- Ownership correlations (For Profit/Non Profit)
+- Comparison of average three year score by ownership type
 
 
 Analysis Results
