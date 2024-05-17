@@ -4,7 +4,7 @@ Analyzing a large data set from Data.CMS.govs, Provider Information covering “
 - Where do we want to place a new nursing facility?
 - What makes a highly rated nursing home facility and how does the Five-Star Rating System reflect that?
 - Staffing hours per resident per day
-- What are red flag indicators for a facility?Abuse
+- What are red flag indicators for a facility? Abuse
 - What are the average 5 star nursing home ratings per different states?
 - How does the staffing levels of nursing homes relate to their Five-Star Rating System scores?
 - Ownership correlations (For Profit/Non Profit)
